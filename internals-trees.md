@@ -2,7 +2,7 @@
 
 Every commit has reference to `tree` object which holds working directory structure. It has references to all subtrees (subdirectories) and blobs (files) inside of that directory.
 
-Let's callout one of the earlier commits of this repository - hash `c653518`.
+Let's call out one of the earlier commits of this repository - hash `c653518`.
 
 To print what information this commit carries, run
 
