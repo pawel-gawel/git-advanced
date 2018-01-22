@@ -1,4 +1,4 @@
-## Git bisect 
+# Git bisect 
 
 Start bisecting mode with
 
