@@ -25,11 +25,13 @@ There is a new directory with new file
 Git hashed new staged file and wrote it as a blob.
 You can find this hash by doing the same thing manually that git does.
 
-```echo -e "blob 13\0Hello, World" | shasum```
+```echo -ne "blob 13\0Hello, World" | shasum```
 
-where blob denotes type of object
-`12` is content's byte length: echo "Hello World" | wc -c
-`\0` is a null byte - option `-e` allows to use it in desired way
+> where blob denotes type of object
+> `12` is content's byte length: echo "Hello World" | wc -c
+> `\0` is a null byte
+> option `-e` allows to use it in desired way
+> option `-n` prevents new line character at the end of string
 
 Resulted hash will be `3fa0d4b98289a95a7cd3a45c9545e622718f8d2b`
 
