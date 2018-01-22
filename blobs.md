@@ -25,13 +25,13 @@ There is a new directory with new file
 Git hashed new staged file and wrote it as a blob.
 You can find this hash by doing the same thing manually that git does.
 
-# blob denotes type of object
-# 12 is content's byte lenth: echo "Hello World" | wc -c
-# \0 is a null byte - -e allows to use it in desired way
-
 ```echo -e "blob 13\0Hello, World" | shasum```
 
-_Hash will be 3fa0d4b98289a95a7cd3a45c9545e622718f8d2b_
+where blob denotes type of object
+`12` is content's byte length: echo "Hello World" | wc -c
+`\0` is a null byte - option `-e` allows to use it in desired way
+
+Resulted hash will be `3fa0d4b98289a95a7cd3a45c9545e622718f8d2b`
 
 You can also manually hash object in git, not using procelain add. Command below will generate the same hash as one above
 
