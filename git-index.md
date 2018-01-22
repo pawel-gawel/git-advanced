@@ -28,6 +28,6 @@ git update-index --assume-unchanged -- somefile.txt
 git update-index --add --cacheinfo 100644 [SHA] [FILENAME]
 ```
 
-```
+### Unstage single file changes
 
-``` 
+TODO 
