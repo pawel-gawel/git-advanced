@@ -54,3 +54,12 @@ Looking at the output of this command
 ```
 
 we can see that tree object is responsible for keeping relevant information about what files are part of this tree, in which blobs their content was saved and what are permissions of these files. They would also be references to tree objects if we would have any subdirectories inside working directory.
+
+
+### Writing trees
+
+Whenever you have any changes staged you can write staging area out to tree object
+
+```
+git write-tree
+``` 
