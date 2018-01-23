@@ -63,3 +63,13 @@ Whenever you have any changes staged you can write staging area out to tree obje
 ```
 git write-tree
 ``` 
+
+### Committing trees
+
+When you commit tree, you basically add new commit to repository
+
+```
+git write-tree <tree sha> [-p <previous commit sha>]
+```
+
+New commit will have information about its parent, author of new commit, creation time, commit message and reference to tree that is a snapshot of working directory state.
