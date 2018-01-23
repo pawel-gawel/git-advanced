@@ -6,6 +6,14 @@
 git log --all
 ```
 
+#### Show statistics of every commit found
+
+```
+git log --stat
+```
+
+This generates diffstat fore each commit in command output.
+
 #### Search within commit history for some pattern
 
 ```
