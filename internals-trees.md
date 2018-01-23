@@ -35,6 +35,12 @@ We can print tree contents using
 git cat-file -p a4e5411
 ```
 
+or using 
+
+```
+git ls-tree a4e5411
+```
+
 Looking at the output of this command 
 
 ```
