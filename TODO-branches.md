@@ -26,6 +26,24 @@ git log A..B
 git log A...B
 ```
 
+## Push branch to remote
+
+```
+git push origin -u HEAD
+```
+
+To make it even simpler 
+
+```
+git config --global push.default current
+```
+
+Then you can go with 
+
+```
+git push -u
+```
+
 ## Delete branches
 
 Local
@@ -43,6 +61,6 @@ git push origin :<BRANCH>
 ## Find best common ancestor 
 
 ```
-git merge-base <BRANCH> <BRANCH>
+git merge-base <BRANCH_A> <BRANCH_B>
 ```
 
