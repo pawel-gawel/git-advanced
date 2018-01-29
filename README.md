@@ -2,10 +2,10 @@
 
 This repo contains some examples of Git advanced features.
 
-1. Git internals
-  1.1 [Blobs]()
-  1.2 [Trees]()
-  1.3 [Commits]()
+1. Git internals 
+  - [Blobs](/gadabout/git-advanced/src/master/internals-blobs.md)
+  - [Trees](/gadabout/git-advanced/src/master/internals-trees.md)
+  - [Commits](/gadabout/git-advanced/src/master/internals-commits.md)
 2. 
 
 --
