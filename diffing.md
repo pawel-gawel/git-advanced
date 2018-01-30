@@ -27,6 +27,12 @@ git diff --stat
 Show files modification status.
 
 
+```
+git diff <blob> <blob>
+```
+
+It can also diff between blobs.
+
 --- 
 
 https://git-scm.com/docs/git-diff
