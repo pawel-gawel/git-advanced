@@ -15,6 +15,8 @@ git rm <FILE>
 git commit --amend --no-edit
 ```
 
+`git rm --cached <FILE>` stages file for removal from the repo (assuming it was already committed before) but leaves the file in your working tree.
+
 ## Hard reset 
 
 ```
