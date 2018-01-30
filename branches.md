@@ -2,6 +2,18 @@
 
 Branch pointers are to be found in `.git/refs/heads`
 
+## Create and checkout
+
+```
+git checkout -b BRANCH
+```
+
+With `-B` option, if branch already exists, it will reset branch to HEAD or pointed SHA
+
+```
+git checkout -B BRANCH SHA
+```
+
 ## Merged branches 
 
 ```
@@ -46,13 +58,16 @@ git push -u
 
 ## Delete branches
 
-Local
+#### Local
 
 ```
 git branch -d 
 ```
 
-Remote 
+It will not delete not yet merged branch without `-f` or `-D` flag.
+The branch must be fully merged in its upstream branch, or in HEAD if no upstream was set
+
+#### Remote 
 
 ```
 git push origin :<BRANCH>
@@ -64,3 +79,13 @@ git push origin :<BRANCH>
 git merge-base <BRANCH_A> <BRANCH_B>
 ```
 
+## Rename branch
+
+```
+git branch -m NAME
+```
+
+
+--- 
+
+https://git-scm.com/docs/git-branch
