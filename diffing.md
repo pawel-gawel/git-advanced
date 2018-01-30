@@ -26,3 +26,7 @@ git diff --stat
 
 Show files modification status.
 
+
+--- 
+
+https://git-scm.com/docs/git-diff
