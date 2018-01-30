@@ -15,6 +15,13 @@ git diff --staged
 Shows diff of staged changes.
 
 ```
+git diff HEAD
+```
+
+Show all (staged and unstaged) changes.
+
+
+```
 git diff -- file.name
 ```
 
@@ -32,6 +39,12 @@ git diff <blob> <blob>
 ```
 
 It can also diff between blobs.
+
+```
+git diff --name-only --diff-filter=U
+```
+
+List conflicted files.
 
 --- 
 
