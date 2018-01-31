@@ -28,7 +28,13 @@ git reset -- FILE
 To unstage single changes (opposite to `git add -p`)
 
 ```
-gt reset -p
+git reset -p
+```
+
+If you have to come back to previous head (because you broke something), you can alway do it with 
+
+```
+git reset --hard HEAD@{1}
 ```
 
 ---
