@@ -40,8 +40,22 @@ git log --since="2 days"
 git log -G<regex>
 ```
 
-#### Online rich output format
+#### Oneline rich output format
 
 ```
 git log --oneline --decorate
+```
+
+Remember about `--graph`
+
+#### Changes to specific file, even if renamed
+
+```
+git log --follow -p -- <file_path>
+```
+
+#### Group commits by authors and title 
+
+```
+git shortlog
 ```
