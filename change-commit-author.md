@@ -30,3 +30,9 @@ and of course
 ```
 git rebase --continue
 ```
+
+#### Reset author, after author has been changed in the global config.
+
+```
+git commit --amend --reset-author --no-edit
+```
