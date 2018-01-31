@@ -28,9 +28,19 @@ First take a look at changes in patch
 git apply --stat some.patch
 ```
 
-Then test your patch 
+Then test your patch, looking for possible errors
 
+```
+git apply --check some.patch
+```
 
+Now you can apply patch 
+
+```
+git am --signoff < some.patch
+# or 
+git apply some.patch
+```
 
 --- 
 
