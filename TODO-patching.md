@@ -17,5 +17,21 @@ git format-patch AGAINST_BRANCH
 To put all changes into single patch
 
 ```
-git format-patch AGAINST_BRANCH --stdout > fix_empty_poster.patch
+git format-patch AGAINST_BRANCH --stdout > some.patch
 ```
+
+## Applying patch
+
+First take a look at changes in patch 
+
+```
+git apply --stat some.patch
+```
+
+Then test your patch 
+
+
+
+--- 
+
+https://www.devroom.io/2009/10/26/how-to-create-and-apply-a-patch-with-git/
