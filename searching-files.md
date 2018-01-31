@@ -63,6 +63,12 @@ git show <hash>:<file>
 git log --reverse --ancestry-path SHA..master
 ```
 
+#### get commit children
+
+```
+git log --children SHA
+```
+
 ---
 
 https://git-scm.com/docs/git-grep
