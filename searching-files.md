@@ -50,6 +50,13 @@ One can pass list of hashes as search base
 git grep somePattern $(git rev-list --all)
 ```
 
+#### Show file at certain commit 
+
+```
+git show <hash>:<file>
+
+```
+
 ---
 
 https://git-scm.com/docs/git-grep
