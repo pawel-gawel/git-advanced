@@ -1,5 +1,11 @@
 # Ignore file changes
 
+To list ignored files 
+
+```
+git check-ignore *
+```
+
 ## For untracked files 
 
 You can use `.gitignore` file to add glob patterns of files to be ignored by Git.
