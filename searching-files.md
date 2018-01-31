@@ -57,6 +57,12 @@ git show <hash>:<file>
 
 ```
 
+#### Show ancestry path from SHA to master
+
+```
+git log --reverse --ancestry-path SHA..master
+```
+
 ---
 
 https://git-scm.com/docs/git-grep
