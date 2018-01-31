@@ -38,6 +38,12 @@ Checkout branch with any history
 git checkout --orphan BRANCH
 ```
 
+Checkout a commit prior to a day ago
+
+```
+git checkout master@{yesterday}
+```
+
 ---
 
 https://github.com/git-tips/tips
