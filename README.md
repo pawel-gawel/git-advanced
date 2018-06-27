@@ -1,40 +1,40 @@
-### Git Advanced
+# Git Advanced
 
 This repo contains some examples of Git advanced features as well as my take on how to git.
 
 ### Git internals 
-  - [blobs](blob/master/internals-blobs.md)
-  - [trees](blob/master/internals-trees.md)
-  - [commits](blob/master/internals-commits.md)
-  - [referencing internals](blob/master/referencing-internals.md)
-  - [index](blob/master/git-index.md)
+  - [blobs](internals-blobs.md)
+  - [trees](internals-trees.md)
+  - [commits](internals-commits.md)
+  - [referencing internals](referencing-internals.md)
+  - [index](git-index.md)
 ### Applying changes
-  - [merging](blob/master/merging.md)
-  - [rebasing](blob/master/rebasing.md)
-  - [cherry-picking](blob/master/cherry-picking.md)
-  - [patching](blob/master/patching.md)
+  - [merging](merging.md)
+  - [rebasing](rebasing.md)
+  - [cherry-picking](cherry-picking.md)
+  - [patching](patching.md)
 ### Undoing things
-  - [undoing things](blob/master/undoing-things.md)
-  - [reverting](blob/master/undo-reverting.md)
-  - [resetting](blob/master/undo-resetting.md)
+  - [undoing things](undoing-things.md)
+  - [reverting](undo-reverting.md)
+  - [resetting](undo-resetting.md)
 ### Search & Inspect
-  - [files added between revisions](blob/master/inspect-files-added-between-revisions.md)
-  - [untracked files](blob/master/inspect-untracked-files.md)
-  - [searching commits](blob/master/searching-commits.md)
-  - [searching files](blob/master/searching-files.md)
+  - [files added between revisions](inspect-files-added-between-revisions.md)
+  - [untracked files](inspect-untracked-files.md)
+  - [searching commits](searching-commits.md)
+  - [searching files](searching-files.md)
 ### Connectivity
- - [protocols](blob/master/protocols.md)
+ - [protocols](protocols.md)
 ### Debugging
- - [blame TODO](blob/master/TODO-blame.md)
- - [bisect](blob/master/bisect.md)
+ - [blame TODO](TODO-blame.md)
+ - [bisect](bisect.md)
 ### Plumbing commands
- - [rev-list](blob/master/plumbing-rev-list.md)
+ - [rev-list](plumbing-rev-list.md)
 ### Good Practices
- - [commits granularity](blob/master/commits-granularity.md)
+ - [commits granularity](commits-granularity.md)
 ### How To
- - [change commit author](blob/master/change-commit-author.md)
- - [removing files from history](blob/master/removing-files-from-history.md)
- - [mark file as binary](blob/master/mark-file-as-binary.md)
+ - [change commit author](change-commit-author.md)
+ - [removing files from history](removing-files-from-history.md)
+ - [mark file as binary](mark-file-as-binary.md)
 
  - 
 
