@@ -5,12 +5,12 @@ Means to re-apply changes from selected commit.
 This requires your working tree to be clean.
 
 ```
-git cherry-pick -x SHA
+git cherry-pick SHA
 ```
 
-Will append line that says "(cherry picked from commit …​)" to the original commit message while recording a commit.
+`-x` will append line that says `(cherry picked from commit …​)` to the original commit message while recording a commit, so one would know which was the origin commit.
 
-Cherry-picking will allo `--ff` if possible.
+Cherry-picking will allow `--ff` if possible.
 
 
 #### Strategy with option

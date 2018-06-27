@@ -21,25 +21,21 @@ git checkout -
 ```
 
 Grab a single file from stash
-
 ```
 git checkout stash@{n} -- FILE
 ```
 
 Restore deleted file 
-
 ```
 git checkout SHA^ -- FILE
 ```
 
 Checkout branch with any history 
-
 ```
 git checkout --orphan BRANCH
 ```
 
 Checkout a commit prior to a day ago
-
 ```
 git checkout master@{yesterday}
 ```

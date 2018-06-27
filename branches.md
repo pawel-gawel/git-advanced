@@ -36,6 +36,8 @@ git log A..B
 
 ```
 git log A...B
+# this command is simmetric 
+git log B...A
 ```
 
 ## Push branch to remote
@@ -44,7 +46,7 @@ git log A...B
 git push origin -u HEAD
 ```
 
-To make it even simpler 
+To make it even simpler you can make this behavior default globally
 
 ```
 git config --global push.default current
@@ -65,7 +67,7 @@ git branch -d
 ```
 
 It will not delete not yet merged branch without `-f` or `-D` flag.
-The branch must be fully merged in its upstream branch, or in HEAD if no upstream was set
+The branch must be fully merged to its upstream branch, or to HEAD if no upstream was set.
 
 #### Remote 
 

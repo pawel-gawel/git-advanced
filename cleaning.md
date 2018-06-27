@@ -1,19 +1,21 @@
 # Cleaning
 
+Dry-run
 ```
 git clean -n 
 ```
 
-Dry-run.
-
+Force clean
 ```
 git clean -f 
 ```
 
-Force clean.
+Remove whole directories
+```
+git clean -d
+```
 
+Remove all untracked (including ignored) files
 ```
 git clean -x 
 ```
-
-Remove all untracked (including ignored) files.
