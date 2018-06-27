@@ -8,7 +8,7 @@ Some strategies can also take their own options with `-X<option>`. This can be c
 
 #### resolve
 
-Safe and fast strategy to do  a 3-way merge between two heads only.
+Safe and fast strategy to do a 3-way merge between two heads only.
 
 ```
 git merge -s resolve <BRANCH> <BRANCH>

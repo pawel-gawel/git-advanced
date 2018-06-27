@@ -2,7 +2,7 @@
 
 These are objects that are not reachable from any of the reference nodes..
 
-They can happen whenever you add it "by hand" using plumbing `git hash-object -w` and not use it as a part of referenced commit (dangling blobs). You will get those also as an outcome of different git operations, like *rebase*, *cherry-pick* etc (dangling commits). 
+They can happen whenever you add it "by hand" using plumbing `git hash-object -w` and not use it as a part of referenced commit (dangling blobs). You will get those also as an outcome of different git operations, like `rebase`, `cherry-pick` etc. 
 
 ## List of dangling objects
 
